@@ -1,0 +1,36 @@
+body {
+    margin: 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h3 {
+    color: purple;
+    font-size: 24px;
+}
+.background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+}
+.board {
+    margin-top: 75px;
+    margin-bottom: 100px;
+    width: 448px;
+    height: 448px;
+    display: grid;
+    justify-content: center;
+    align-content: center; 
+}
+
+.box {
+    font-size: 12px;
+    border: 1px  solid purple;
+    color: black;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.box.color {
+    background-color: greenyellow;
+}
